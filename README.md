@@ -23,7 +23,9 @@ The list of libraries used are updated in requirements.txt file.
 At the start of the simulation, the GUI map remains empty as it awaits the instructions to be inputted by the user, such as to set the obstacles, set the start and end position coordinates of the robot path and to set the number of iterations for which the algorithm is to be run. Once this information has been set and the simulation starts, the calls to appropriate genetic algorithm functions are made such that a number of chromosomes are initially generated, out of which the best chromosome containing the coordinates of the path joining the starting and ending points is calculated such that it minimizes the cost function value.
 
 
-https://user-images.githubusercontent.com/106268058/228064230-f07540eb-a4b6-40f3-a62e-d4a8e15f5b83.mp4
+
+https://user-images.githubusercontent.com/106268058/228067812-4ca7f0b8-0523-4e2a-8b53-44c0827f8e9f.mp4
+
 
 
 Next, the genetic algorithm has been subjected to changes in the obstacle map, mid-simulation by introducing a new function for dynamic shifting of the obstacles. This dynamic function has been used after path generation, so that it causes the objects in the map to randomly shift their position. The number of times this change can occur can be controlled and for experimental purpose, the map has been subjected to 3 changes.
